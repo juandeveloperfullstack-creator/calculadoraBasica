@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+nav {
+    background-color: rgb(2, 25, 87);
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(4, 138, 60, 0.692);
+
+}
+
+footer {
+    background: black;
+    color: white;
+    margin-top: 200px;
+}
+
+button {
+    
+}
+
+#suma{
+    background-color: green;
+    margin-bottom: 20px;
+}
+#resta{
+    background-color: red;
+}
+#multiplicar{
+    background-color: rgb(63, 63, 201);
+}
+#dividir{
+    background-color: rgb(88, 6, 136);
+}
+
+            
